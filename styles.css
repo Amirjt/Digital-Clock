@@ -27,13 +27,11 @@ body {
 
 span {
     margin-right: 20px;
-/* From https://css.glass */
-/* From https://css.glass */
-background: rgba(241, 188, 170, 0.15);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.7px);
--webkit-backdrop-filter: blur(4.7px);
-padding: 20px;
+    background: rgba(241, 188, 170, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    padding: 30px;
     color: white;
 }
