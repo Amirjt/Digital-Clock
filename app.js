@@ -5,7 +5,8 @@ const sec = document.querySelector(".sec");
 function timeGetter() {
   const time = new Date();
   hour.innerHTML = time.getHours();
-  mins.innerHTML = time.getMinutes();
+  const paddedMis = time.getMinutes() < 10 ? "0" + time.getMinutes() : time.getMinutes();
+  mins.innerHTML = paddedMis;
   const paddedSeconds = time.getSeconds() < 10 ? "0" + time.getSeconds() : time.getSeconds();
   sec.innerHTML = paddedSeconds;
 }
