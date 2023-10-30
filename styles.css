@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #3c3b3f, #605c3c);
+    box-sizing: border-box;
+}
+
+.clock {
+   width: 600px;
+   height: 300px;
+   background-image: linear-gradient( 109.6deg,  rgba(61,131,97,1) 11.2%, rgba(28,103,88,1) 91.1% );
+   border-radius: 25px;
+   box-shadow: 8px 8px 15px #3c3b3f;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 70px;
+}
+
+span {
+    margin-right: 20px;
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(241, 188, 170, 0.15);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.7px);
+-webkit-backdrop-filter: blur(4.7px);
+padding: 20px;
+    color: white;
+}
